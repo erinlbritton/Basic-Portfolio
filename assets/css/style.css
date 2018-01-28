@@ -245,7 +245,7 @@ input[name=textbox1] {
     width: calc(100% - 25px);
     padding: 10px;
     margin-bottom: 15px;
-    color: #cccccc;
+    color: grey;
     border: 1px;
     border-style: solid;
     border-color: #cccccc;
@@ -256,7 +256,7 @@ textarea[name=textbox2] {
     height: 150px;
     padding: 10px;
     margin-bottom: 15px;
-    color: #cccccc;
+    color: grey;
     border: 1px;
     border-style: solid;
     border-color: #cccccc;
