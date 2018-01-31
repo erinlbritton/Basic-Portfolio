@@ -1,16 +1,13 @@
 /* This container should span the width of the page, contain centered header elements, 
-have a white background, and fixed position so it doesn't scroll. The only remaining
-bug is the border: I am not sure why the "bottom-border" only displays with "border-top" */
+have a white background, and fixed position so it doesn't scroll.  */
 .container-header {
     background-color: #ffffff;
     margin: 0px;
     padding: 0px;
     width: 100%;
-    border-color: #cccccc;
-    border-style: solid;    
-    border-top: 5px;
-    border-right: 0px;    
-    border-left: 0px;
+    border-bottom-color: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
     position: fixed;
     top: 0px;
     z-index: 2;
